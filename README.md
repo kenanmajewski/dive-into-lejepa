@@ -123,11 +123,11 @@ If you use this implementation in your research, please cite both the original p
 **This implementation** (by Kenan Majewski):
 
 ```bibtex
-@software{majewski2025lejepa_impl,
+@software{majewski2026lejepa_impl,
   author = {Kenan Majewski},
   title = {Dive into LeJEPA: Interactive Implementation in JAX/Equinox},
   url = {https://github.com/kenanmajewski/dive-into-lejepa},
-  year = {2025},
+  year = {2026},
 }
 ```
 
