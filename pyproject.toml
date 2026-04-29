@@ -1,0 +1,26 @@
+[project]
+name = "dive-into-lejepa"
+version = "1.0.0"
+description = "An interactive, from-scratch implementation of LeJEPA in JAX/Equinox."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "equinox>=0.13.6",
+    "jax>=0.9.2",
+    "marimo>=0.22.5",
+    "matplotlib>=3.10.8",
+    "optax>=0.2.8",
+    "scikit-learn>=1.8.0",
+]
+
+[tool.pyright]
+venvPath = "."
+venv = ".venv"
+
+[tool.marimo.runtime]
+watcher_on_save = "autorun"
+
+[dependency-groups]
+dev = [
+    "ruff>=0.15.12",
+]
